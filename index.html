@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="head">My Shopping List</h3>
+
+      <div class="input-container">
+        <input
+          class="input"
+          type="text"
+          id="itemName"
+          placeholder="Enter Item Name"
+        />
+        <input
+          class="input"
+          type="number"
+          id="itemPrice"
+          step="0.1"
+          placeholder="Enter Item Price"
+        />
+        <button id="addItemButton">Add Item</button>
+      </div>
+      <div id="shoppingList"></div>
+      <p id="totalCost"></p>
+      <button id="printReceiptButton" style="display: none">
+        Print Receipt
+      </button>
+    </div>
+
+    <!-- Include the compiled TypeScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>

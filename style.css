@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  /* height: 35vh;
+  width: 28%; */
+  background-color: white;
+  border: 1px solid rgb(229, 219, 219);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+  /* border: 1px solid; */
+  color: brown;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+  height: 4vh;
+  border-radius: 5px;
+  color: rgb(5, 5, 5);
+}
+
+button {
+  /* padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer; */
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding:10px; */
+  align-items: center;
+  color: white;
+  background-color: rgb(84, 84, 181);
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 10px;
+  height: 5vh;
+  /* width: 10px; */
+  margin-right: 15px;
+  /* padding: 15px; */
+}
+
+#shoppingList div {
+  margin-bottom: 5px;
+}
+#shoppingList {
+  text-align: left; /* Align shopping list items horizontally to the left */
+  font-weight: bold;
+  font-size: 13px;
+}
+#totalCost {
+  color: brown;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#shoppingList div {
+  margin-bottom: 5px;
+  color: blue;
+}
